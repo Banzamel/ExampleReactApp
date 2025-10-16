@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "skipLibCheck": true,
+      "module": "ESNext",
+      "moduleResolution": "bundler",
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+
+      /* Path Aliases */
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"],
+        "@api": ["./src/api"],
+        "@components/*": ["./src/components/*"],
+        "@hooks": ["./src/hooks"],
+        "@layout/*": ["./src/layout/*"],
+        "@scss/*": ["./src/scss/*"],
+        "@views/*": ["./src/views/*"]
+      },
+
+      /* Types */
+      "types": ["vite/client", "node"]
+    },
+    "include": ["vite.config.mts"]
+  }
+  

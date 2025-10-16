@@ -1,0 +1,11 @@
+// Import styles
+@use "@coreui/coreui/scss/coreui" as *;
+//@import "@coreui/coreui/scss/themes/bootstrap";
+
+// If you want to override variables do it here
+@use "variables" as *;
+
+@use "layout" as *;
+
+// If you want to add custom CSS you can put it here.
+@use "components" as *;
